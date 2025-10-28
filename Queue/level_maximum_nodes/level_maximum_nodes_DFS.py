@@ -39,3 +39,4 @@ if __name__ == "__main__":
     root.left.right = Node(6)
     root.left.left.left = Node(5)
     print(maxNodeLevel(root))
+    
