@@ -8,5 +8,4 @@ def removeDuplicates(nums):
             nums[i] = nums[j]
     return i + 1
 
-
 print(removeDuplicates([1, 1, 2, 2, 3, 4, 4, 5]))
