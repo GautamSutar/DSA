@@ -12,3 +12,13 @@ class Solution:
             num //= 10
 
         return result[::-1]
+
+
+# Time Complexity
+# O(n)
+
+# Space Complexity
+# O(n)
+
+# ❌ Risky in languages with integer overflow
+# ❌ Interviewers usually reject this
