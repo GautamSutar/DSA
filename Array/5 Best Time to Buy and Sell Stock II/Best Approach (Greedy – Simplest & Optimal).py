@@ -1,17 +1,17 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        profit = 0
+        min_price = float("inf")
+        max_profit = 0
 
-        for i in range(1, len(prices)):
-            if prices[i] > prices[i - 1]:
-                profit += prices[i] - prices[i - 1]
+        for price in prices:
+            min_price = min(min_price, price)
+            max_profit = max(max_profit, price - min_price)
 
-        return profit
+        return max_profit
 
 
 # | Metric       | Value     |
 # | ------------ | --------- |
-# | Time         | **O(n)**  |
-# | Space        | **O(1)**  |
-# | Transactions | Unlimited |
+# | Time         |    O(n)   |
+# | Space        |    O(1)   |
 # | Greedy       | ✅        |
