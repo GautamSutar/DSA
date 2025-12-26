@@ -18,6 +18,6 @@ class Solution:
 
 # | Approach          | Time     | Space    | Status |
 # | ----------------- | -------- | -------- | ------ |
-# | Brute             | O(n²)    | O(1)     | ❌      |
-# | Better            | O(n)     | O(1)     | ✅      |
-# | **Best (Greedy)** | **O(n)** | **O(1)** | ⭐      |
+# | Brute             | O(n²)    | O(1)     | ❌     |
+# | Better            | O(n)     | O(1)     | ✅     |
+# | **Best (Greedy)** | **O(n)** | **O(1)** | ⭐     |
