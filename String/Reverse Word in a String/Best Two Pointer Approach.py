@@ -19,3 +19,10 @@ class Solution:
             result.append(s[i + 1 : j + 1])
 
         return " ".join(result)
+
+
+# ⏱️ Complexity
+
+# Time: O(n)
+
+# Space: O(n) (result list)
