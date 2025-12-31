@@ -26,3 +26,10 @@ class Solution:
 # Time: O(n)
 
 # Space: O(n) (result list)
+
+# | Approach    | Uses split | Extra Space | Interview Rating |
+# | ----------- | ---------- | ----------- | ---------------- |
+# | Brute Force | ❌          | O(n)        | ⭐⭐⭐⭐      |
+# | Better      | ✅          | O(n)        | ⭐⭐⭐⭐⭐   |
+# | Optimal     | ❌          | O(n)        | ⭐⭐⭐⭐⭐   |
+# | In-place    | ❌          | O(1)*       | ⭐⭐⭐⭐⭐⭐ |
