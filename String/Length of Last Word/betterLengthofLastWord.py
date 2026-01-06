@@ -15,3 +15,6 @@ def lengthOfLastWord(s: str) -> int:
 
 
 print(lengthOfLastWord("    day"))
+
+# ⏱️ Time Complexity - O(n) + O(n) -> O(n)
+# ⏱️ Space Complexity - O(1) 
