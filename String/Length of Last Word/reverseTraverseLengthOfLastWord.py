@@ -13,3 +13,10 @@ class Solution:
 
 ob = Solution()
 print(ob.lengthOfLastWord("    day   "))
+
+
+# ⏱️ Complexity
+
+# Time: O(n)
+
+# Space: O(1)
