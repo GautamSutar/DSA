@@ -13,3 +13,9 @@ class Solution:
 
 ob = Solution()
 print(ob.firstUniqChar("aabb"))
+
+
+# | Approach      | Time  | Space           |
+# | ------------- | ----- | --------------- |
+# | Brute Force   | O(n²) | O(1)            |
+
