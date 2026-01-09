@@ -19,3 +19,10 @@ class Solution:
             curr = curr.next
         curr.next = None
         return new_head
+
+
+# ⏱ Complexity
+
+# Time: O(n)
+
+# Space: O(n)
