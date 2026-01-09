@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        
+
         if not head or not head.next:
             return head
         new_head = self.reverseList(head.next)
@@ -13,3 +13,8 @@ class Solution:
         head.next = None 
         return new_head
 
+# ⏱ Complexity
+
+# Time: O(n)
+
+# Space: O(n) (Recursion stack)
