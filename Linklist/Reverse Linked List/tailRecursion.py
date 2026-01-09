@@ -20,3 +20,11 @@ class Solution:
 # Time: O(n)
 
 # Space: O(n)
+
+
+# | Approach               | Time | Space | Interview Use |
+# | ---------------------- | ---- | ----- | ------------- |
+# | Iterative (3 pointers) | O(n) | O(1)  | ⭐⭐⭐⭐⭐  |
+# | Recursive              | O(n) | O(n)  | ⭐⭐⭐⭐     |
+# | Stack                  | O(n) | O(n)  | ⭐⭐          |
+# | Tail Recursive         | O(n) | O(n)  | ⭐⭐⭐       |
