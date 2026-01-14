@@ -14,3 +14,4 @@ class Solution:
         node.next = None
 ob = Solution()
 print(ob.deleteNode())
+

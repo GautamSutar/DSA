@@ -16,3 +16,9 @@ class Solution:
 # Time: O(1) ⭐
 
 # Space: O(1) ⭐
+
+# | Approach              | Allowed | Time | Space  |
+# | --------------------- | ------- | ---- | ------ |
+# | Brute (using head)    | ❌       | O(n) | O(1)   |
+# | Value Shifting        | ✅       | O(n) | O(1)   |
+# | Copy Next Node (BEST) | ✅       | O(1) | O(1) ⭐ |
