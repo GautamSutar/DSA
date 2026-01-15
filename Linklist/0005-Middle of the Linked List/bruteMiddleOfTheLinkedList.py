@@ -15,3 +15,9 @@ class Solution:
         for _ in range(middle):
             curr = curr.next
         return curr
+
+
+# | Metric | Value               |
+# | ------ | ------------------- |
+# | Time   | **O(N)** (2 passes) |
+# | Space  | **O(1)**            |
