@@ -11,3 +11,9 @@ class Solution:
             node.append(curr)
             curr = curr.next
         return node[len(node) // 2]
+
+
+# | Metric | Value    |
+# | ------ | -------- |
+# | Time   | **O(N)** |
+# | Space  | **O(N)** |
