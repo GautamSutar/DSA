@@ -4,3 +4,5 @@ you need
 -> curr point to head 
 -> append curr to list 
 -> return half list 
+
+
