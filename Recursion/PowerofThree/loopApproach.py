@@ -6,8 +6,7 @@ class Solution:
             n //= 3
         return n == 1
 
-# Complexity
-
-# Time: O(log n)
-
-# Space: O(1)
+# | Type  | Value         |
+# | ----- | ------------- |
+# | Time  | **O(log₃ n)** |
+# | Space | **O(1)**      |
