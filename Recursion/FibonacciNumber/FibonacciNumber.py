@@ -7,10 +7,8 @@ class Solution:
         return self.fib(n - 1) + self.fib(n - 2)
 
 
-# fib(1) → 1
+# Time: O(n)
 
-# fib(0) → 0
+# Space: O(1)
 
-# Every recursive call returns an integer
-
-# ✔️ No more None
+# ✅ Best answer
