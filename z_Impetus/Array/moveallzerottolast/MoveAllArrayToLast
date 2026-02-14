@@ -1,0 +1,21 @@
+def move_zeroes_brute(arr):
+    n = len(arr)
+    
+    index = 0
+    
+    # Store non-zero elements
+    for i in range(n):
+        if arr[i] != 0:
+            arr[index]= arr[i]
+            index += 1
+    
+    # Copy back to original array
+    for i in range(index, n):
+        arr[i] = 0
+    
+    return arr
+
+
+# Example
+arr = [0,1,0,3,12]
+print(move_zeroes_brute(arr))
