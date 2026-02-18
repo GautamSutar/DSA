@@ -33,7 +33,7 @@ def cycle_detect(nodes):
 
 
 A = Node("A")
-B = Node("B")
+B = Node("B")   
 C = Node("C")
 D = Node("D")
 
