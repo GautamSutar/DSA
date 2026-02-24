@@ -10,7 +10,5 @@ def next_greater_element(nums):
         stack.append(nums[i])
         
     return result
-
-        
-    
+ 
 print(next_greater_element([4, 5, 2, 10, 8]))
