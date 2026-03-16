@@ -1,11 +1,13 @@
 import sys
 import math
 
-if len(sys.argv) != 3:
+if len(sys.argv) != 2:
     sys.exit()
 
-n = int(sys.argv[1])
-m = int(sys.argv[2])
+s = int(sys.argv[1])
 
-h = math.sqrt(n**n + m**m)
-print(f"{h:.2f}")
+vowel = "aeiouAEIOU"
+result = ""
+for ch in s:
+    if 
+
