@@ -10,3 +10,4 @@ def alternate_max_min(arr):
 
 arr = list(map(int, input().split()))
 print(alternate_max_min(arr))
+    
