@@ -5,7 +5,8 @@ def average(nums, k):
     n = k 
     if k < 0:
         for i in range(size):
-            total = nums[n] + nums[n + 1]
+            for j in range(abs(k)):
+                total += nums[n + j]
             arr[i] = total 
             total = 0
             n = n + 1 
