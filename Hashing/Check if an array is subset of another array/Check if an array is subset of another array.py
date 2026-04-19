@@ -12,3 +12,6 @@ array1 = [10, 5, 2, 23, 19]
 array2 = [19, 5, 3] 
 obj = ToCheckSubset(array1, array2)
 print(obj.check())
+
+# TC - (m)
+ 
