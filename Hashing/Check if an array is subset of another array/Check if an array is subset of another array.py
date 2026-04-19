@@ -1,17 +1,20 @@
-class ToCheckSubset:
-    def __init__(self, array1, array2):
-        self.arr1 = array1
-        self.arr2 = array2
+class NonRepeatingCharacter:
+    def __init__(self, s):
+        self.s = s
+        self.freq = {}
     def check(self):
-        for num in self.arr2:
-            if num not in self.arr1:
-                return False
-        return True
+        for num in self.s:
+            self.freq[num] = self.freq.get(num, 0) + 1
+        return self.freq
+    
+    def printFreq(self):
+        result = self.check()
+        for ch in result:
+            if result[ch] == 1:        
+                return ch
+            else:
+                return "$"
 
-array1 = [10, 5, 2, 23, 19]
-array2 = [19, 5, 3] 
-obj = ToCheckSubset(array1, array2)
-print(obj.check())
-
-# TC - (m)
- 
+string = "aabbccc"
+obj = NonRepeatingCharacter(string)
+print(obj.printFreq())

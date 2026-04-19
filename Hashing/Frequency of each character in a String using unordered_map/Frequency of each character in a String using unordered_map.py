@@ -1,4 +1,4 @@
-class ToCheckSubset:
+class FrequencyOfEachCharacter:
     def __init__(self, s):
         self.s = s
         self.freq = {}
@@ -13,5 +13,5 @@ class ToCheckSubset:
             print(f"{ch} : {result[num]}")
 
 string = "geeksforgeeks"
-obj = ToCheckSubset(string)
+obj = FrequencyOfEachCharacter(string)
 print(obj.printFreq())
